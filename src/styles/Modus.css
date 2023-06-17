@@ -1,0 +1,81 @@
+
+.modus-header {
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.modus-header img {
+  height: 100%;
+  margin-right: 380px; /* Adjust the margin as needed */
+}
+
+.modus-header h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.reel-container1{
+    position: relative;
+    height: 200px;
+    background-image: url(../Images/SquareReel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+  }
+  
+  .reel-container1 .reel-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .reel-container1 .reel-image:first-child {
+    left: -70px;
+  }
+
+  .reel-container1 .boat-image:first-child {
+    left: 0;
+  }
+  
+  .reel-container1 .reel-image:last-child {
+    right: 0;
+  }
+  
+
+.modus-card {
+    width: 210px;
+    height: 60%;
+    text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  
+}
+
+.modus-card img {
+  margin-bottom: 5px;
+  width: 40px;
+}
+
+.modus-card span {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.modus-card small {
+  display: block;
+  font-size: 11px;
+  line-height: 16px;
+  color: #1ca48a;
+}
